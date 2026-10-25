@@ -1,0 +1,31 @@
+{
+  "target": "JV_default_PCE",
+  "units": "%",
+  "random_state": 42,
+  "train_rows": 32385,
+  "test_rows": 8097,
+  "features": 10,
+  "selected_features": [
+    "Perovskite_deposition_quenching_induced_crystallisation",
+    "HTL_stack_sequence",
+    "Cell_stack_sequence",
+    "Perovskite_deposition_thermal_annealing_time",
+    "Perovskite_composition_b_ions",
+    "Perovskite_deposition_thermal_annealing_temperature",
+    "Perovskite_deposition_solvents",
+    "ETL_stack_sequence",
+    "Perovskite_composition_a_ions",
+    "ETL_deposition_procedure"
+  ],
+  "best_parameters": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__min_samples_split": 2,
+    "model__n_estimators": 100
+  },
+  "cv_best_mae": 2.6676223722262704,
+  "r2": 0.6306900593689272,
+  "mae": 2.2577362196744257,
+  "mse": 10.037584400453438,
+  "rmse": 3.1682147023920963
+}
